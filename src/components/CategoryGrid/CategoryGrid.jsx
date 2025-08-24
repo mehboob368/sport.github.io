@@ -2,12 +2,12 @@ import React from "react";
 import "./CategoryGrid.css";
 
 const items = [
-  { img:"/images/ico1_340x340_crop_top.webp", title:"Apparel" },
-  { img:"/images/ico2_340x340_crop_top.webp", title:"Protective" },
-  { img:"/images/ico3_340x340_crop_top.webp", title:"Balls" },
-  { img:"/images/ico4_340x340_crop_top.webp", title:"Shoes" },
-  { img:"/images/ico5_340x340_crop_top.webp", title:"Accessories" },
-  { img:"/images/ico6_340x340_crop_top.webp", title:"Equipment" },
+  { img:"images/ico1_340x340_crop_top.webp", title:"Apparel" },
+  { img:"images/ico2_340x340_crop_top.webp", title:"Protective" },
+  { img:"images/ico3_340x340_crop_top.webp", title:"Balls" },
+  { img:"images/ico4_340x340_crop_top.webp", title:"Shoes" },
+  { img:"images/ico5_340x340_crop_top.webp", title:"Accessories" },
+  { img:"images/ico6_340x340_crop_top.webp", title:"Equipment" },
 ];
 
 function CategoryGrid(){
