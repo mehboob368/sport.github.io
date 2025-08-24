@@ -16,7 +16,7 @@ function Card({item}){
           <span className="span">{item.price}</span>
           <div className="add-to-cart">
             <a href="#">Add to cart</a>
-            <img src="/images/icon.svg" alt="" />
+            <img src="images/icon.svg" alt="" />
           </div>
         </div>
       </div>

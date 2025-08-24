@@ -5,7 +5,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const slides = [
+<<<<<<< HEAD
   { bg: "https://raw.githubusercontent.com/mehboob368/sport.github.io/refs/heads/main/docs/images/slider1_1810x600_crop_top.webp", kicker:"Up to 30% OFF on all items!", h1:["FOOTBALL","EQUIPMENT & GEAR"] },
+=======
+  { bg: "images/slider1_1810x600_crop_top.webp", kicker:"Up to 30% OFF on all items!", h1:["FOOTBALL","EQUIPMENT & GEAR"] },
+>>>>>>> 59b8318 (Fix image paths for GitHub Pages)
   { bg: "images/slider2_1810x600_crop_top.webp", kicker:"The latest trends in our shop!", h1:["This week’s New","Arrival"] },
   { bg: "images/slider3_1810x600_crop_top.webp", kicker:"Up to 50% less!", h1:["Activewear and","Sportswear"] },
 ];

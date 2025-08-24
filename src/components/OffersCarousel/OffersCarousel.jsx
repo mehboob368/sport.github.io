@@ -5,10 +5,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const offers = [
-  { img:"/images/1.webp", title:"We have footballs for all levels of competition.", text:"Do not forget about your feet! Keep the whole body healthy with professional shoes. Running,..." },
-  { img:"/images/2.webp", title:"Football Helmets - Varsity Helmets - Youth Helmets", text:"To be in a good shape is very important nowadays because our way of life..." },
-  { img:"/images/3.webp", title:"Save 10% on best gear for football! More in-stock than...", text:"We provide a full-line product offering in a traditional sporting goods store format. Our product..." },
-  { img:"/images/4.webp", title:"We provide a full-line product offering in a traditional sporting...", text:"Do not forget about your feet! Keep the whole body healthy with professional shoes. Running,..." },
+  { img:"images/1.webp", title:"We have footballs for all levels of competition.", text:"Do not forget about your feet! Keep the whole body healthy with professional shoes. Running,..." },
+  { img:"images/2.webp", title:"Football Helmets - Varsity Helmets - Youth Helmets", text:"To be in a good shape is very important nowadays because our way of life..." },
+  { img:"images/3.webp", title:"Save 10% on best gear for football! More in-stock than...", text:"We provide a full-line product offering in a traditional sporting goods store format. Our product..." },
+  { img:"images/4.webp", title:"We provide a full-line product offering in a traditional sporting...", text:"Do not forget about your feet! Keep the whole body healthy with professional shoes. Running,..." },
 ];
 
 function OffersCarousel(){
