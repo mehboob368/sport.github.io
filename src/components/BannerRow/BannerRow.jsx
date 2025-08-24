@@ -20,8 +20,8 @@ function BannerRow(){
   return (
     <section className="banner-row">
       <div className="container-xxl grid">
-        <Banner img="/images/banner1_895x700_crop_center.webp" title="LIMITED TIME OFFER!" big={"SAVE 20%"} text="On Football Balls!" />
-        <Banner img="/images/banner2_895x700_crop_center.webp" title="UP TO 30% OFF!" big={"FOOTBALL\nHELMETS"} text="We offer the best products at affordable prices." />
+        <Banner img="images/banner1_895x700_crop_center.webp" title="LIMITED TIME OFFER!" big={"SAVE 20%"} text="On Football Balls!" />
+        <Banner img="images/banner2_895x700_crop_center.webp" title="UP TO 30% OFF!" big={"FOOTBALL\nHELMETS"} text="We offer the best products at affordable prices." />
       </div>
     </section>
   )
