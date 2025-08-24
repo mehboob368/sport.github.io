@@ -1,0 +1,11 @@
+.nav_bar_header { padding: 16px 0; border-bottom:1px solid #e5e7eb; background:#fff; position:sticky; top:0; z-index:10; }
+.header-row { display:grid; grid-template-columns: 180px 1fr 160px; align-items:center; gap:16px; }
+.logo img { height:40px; }
+.search form { display:flex; align-items:center; gap:8px; }
+.search input { width:100%; padding: 10px 12px; border:1px solid #e5e7eb; border-radius:6px; }
+.search button { border:1px solid #e5e7eb; background:#fff; padding:8px 10px; border-radius:6px; cursor:pointer; }
+.cart { display:flex; justify-content:flex-end; align-items:center; gap:10px; font-weight:600; }
+@media (max-width: 900px){
+  .header-row { grid-template-columns: 1fr; }
+  .cart { justify-content:flex-start; }
+}

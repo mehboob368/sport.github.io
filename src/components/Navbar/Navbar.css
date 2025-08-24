@@ -1,0 +1,12 @@
+.navbar { background:#fff; border-bottom:1px solid #e5e7eb; }
+.navbar .container-xxl { display:flex; align-items:center; gap:12px; }
+.nav1 { display:flex; gap:16px; list-style:none; margin:0; padding:10px 0; }
+.nav1 a { text-decoration:none; color:#111827; padding:8px 10px; border-radius:8px; font-weight:600; }
+.nav1 a:hover { background:#f3f4f6; }
+.burger { display:none; width:44px; height:44px; border:1px solid #e5e7eb; background:#fff; border-radius:10px; }
+.burger span { display:block; height:2px; background:#111827; margin:8px; }
+@media (max-width: 900px){
+  .burger { display:block; }
+  .nav1 { display:none; flex-direction:column; padding:12px; border:1px solid #e5e7eb; border-radius:12px; }
+  .nav1.open { display:flex; }
+}

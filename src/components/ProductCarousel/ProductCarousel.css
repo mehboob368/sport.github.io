@@ -1,0 +1,8 @@
+.product_card .image { position:relative; border:1px solid #e5e7eb; border-radius: 10px; overflow:hidden; }
+.product_card .main_img { width:100%; height: 260px; object-fit: cover; }
+.product_card .badge { position:absolute; top: 12px; right: 12px; }
+.product_card .badge.orange1 { left: 12px; right:auto; }
+.product_card .hover { position:absolute; inset:auto 0 0 0; padding: 12px; background: rgba(255,255,255,.96); transform: translateY(100%); transition: transform .25s ease; }
+.product_card:hover .hover { transform: translateY(0); }
+.product_card .add-to-cart { display:flex; align-items:center; gap:12px; margin-top: 10px; }
+.product_card .add-to-cart a { text-decoration:none; font-weight:700; color:#111827; border:1px solid #111827; padding:8px 10px; border-radius:6px; }

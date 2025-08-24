@@ -1,0 +1,8 @@
+.footer-bottom { border-top:1px solid #e5e7eb; background:#f9fafb; padding: 14px 0; }
+.footer-bottom .row { display:flex; align-items:center; justify-content:space-between; }
+.footer-bottom p { margin:0; }
+.footer-bottom .socials { display:flex; list-style:none; gap:12px; margin:0; padding:0; }
+.footer-bottom .socials a { color:#111827; text-decoration:none; }
+@media (max-width: 700px){
+  .footer-bottom .row { flex-direction: column; gap: 8px; }
+}

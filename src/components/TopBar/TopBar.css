@@ -1,0 +1,8 @@
+.top_bar { background:#111827; color:#fff; font-size:14px; }
+.top_bar a { color:#fff; text-decoration:none; }
+.top_bar .row { display:flex; align-items:center; gap:10px; padding:10px 0; }
+.top_bar .col { flex:1; }
+.top_bar .center { text-align:center; }
+.top_bar .right { display:flex; justify-content:flex-end; }
+.inline { display:flex; gap:24px; list-style:none; margin:0; padding:0; }
+.top_bar span { color:#facc15; font-weight:700; }
